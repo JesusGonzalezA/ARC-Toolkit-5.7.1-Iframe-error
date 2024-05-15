@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe page</title>
+    <style>
+        a {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <p>This iframe should raise an Error in ARC Toolkit due to the next button not having an accessible name.</p>
+    <button></button>
+    <a target="_parent" href="index.html">Go to parent page containing this iframe</a>
+    <a target="_parent" href="other.html">Opens this page without a parent</a>
+</body>
+</html>
